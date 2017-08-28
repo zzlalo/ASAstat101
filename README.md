@@ -42,8 +42,30 @@ Right now you are looking at a tab in your browser. For the sake of clarity, let
     ![](gh-pages.png)
     
 Yours will be a little different. In particular, in the place where the image above says "Master Branch /docs folder," your page will say "None." Change the "None" to "Master Branch /docs folder" and press save.
+6. Scroll back up to the top of the page. At the top left will be your user name followed by your course name. Click on the course name. 
+
+    You'll come to a page that looks like this:
+    
+    ![](repository.png)
+
 
 Congratulations! Your web site is now created! The address of your new web site will be displayed just above the "Master Branch /docs folder" button. It will be something like `https://dtkaplan.github.io/stat101`, but with your own user ID and course name.
 
-## How things work
+## Getting oriented
+
+The image above shows what your repository looks like. You can see a list of files, starting with a folder called "docs". The docs folder is where you will put all of the materials for your web site. Click on the name "docs" and you will see what files are already in the directory.  There are two:
+
+- `test.csv` - a really small CSV data file
+- `index.md` - a text file containing the front page of your new site.
+
+What might confuse you is that the site URL is something like `http://dtkaplan.github.io/stat101`, which does not include the word `docs`. Get used to it. The URL really does point to the `docs` directory. And, since there is a file called `index.md` in the `docs` directory, the contents of `index.md` are what will be displayed when someone points their browser to your repository.
+
+## Customizing your site
+
+Mostly, you're going to do two things with your site:
+
+1. Upload data files from your own computer into the `docs` folder on your site. Conveniently, there is an "Upload Files" button just for this purpose.
+2. Edit the `index.md` file. To do this, click on the name `index.md`, which will open the file. You will see a little pencil icon; press that to edit the file. When you're done with your edits, scroll down and press the green "Commit changes" button. That simply saves your work. As soon as you've done this, the modified page is live on your web site, but it might take a few minutes and a refresh of your browser to see it.
+
+
 
