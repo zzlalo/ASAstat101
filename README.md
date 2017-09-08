@@ -10,11 +10,16 @@ The main resource we'll use is called *GitHub*. This is a free service that's ve
 
 ## Setting up your web site
 
-Right now you are looking at a tab in your browser. For the sake of simplicity, let's call this the "Stat101 Tab." Since you will want to refer to these instructions while you are doing your setup, you should open another tab in your browser, which for simplicity we'll call the "Setup Tab." You will want to have both tabs available to you so that you can go back and forth. You might, for instance, put them side by side on your screen. 
+Right now you are looking at a tab in your browser. For the sake of simplicity, let's call this the "Stat101 Tab." Since you will want to refer to these instructions while you are doing your setup, you should open another tab in your browser, which for simplicity we'll call the "Setup Tab." You will want to have both tabs available to you so that you can go back and forth. You might, for instance, put them side by side on your screen. Like this:
+
+![two tabs](two-tabs.png)
+<!--div style=' text-align: center;'>
+<img src="two-tabs.png" style="width: 80%;">
+</div-->
 
 1. You will need a GitHub account. You just have to set this up once, and it's the same kind of thing as you do all the time when you set up a new account on some service. To set up your account, point the "Setup Tab" to `github.com`. You'll get a page like the following. 
     
-    ![](make-account.png)
+    ![](two-tabs-account.png)
     
     Go ahead and make an account. Some tips:
         * GitHub is very popular, so your first choice of account name may not be available. Whatever you choose, make it short and professional. For instance, **don't** use an account name like `party_guy`. If you do, you will find your students having to refer to URLs like `party_guy.github.io/stat101/exam_data.csv`, which they might not take very seriously.

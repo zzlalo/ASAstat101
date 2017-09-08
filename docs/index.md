@@ -8,7 +8,7 @@
 
 This page contains links and other student-facing information for StatPREP activities.
 
-> If you are a student looking for the web page for your instructor's web site, you've found your way to the StatPREP repository. Check with your instructor to make sure that you have the right URL for your instructor's web site.
+> If you are a student looking for the web page for your own instructor's web site, you're not there. Check with your instructor to make sure that you have the right URL for your instructor's web site.
 
 ## Tutorials
 
