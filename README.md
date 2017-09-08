@@ -13,17 +13,15 @@ The main resource we'll use is called *GitHub*. This is a free service that's ve
 Right now you are looking at a tab in your browser. For the sake of simplicity, let's call this the "Stat101 Tab." Since you will want to refer to these instructions while you are doing your setup, you should open another tab in your browser, which for simplicity we'll call the "Setup Tab." You will want to have both tabs available to you so that you can go back and forth. You might, for instance, put them side by side on your screen. Like this:
 
 ![two tabs](two-tabs.png)
-<!--div style=' text-align: center;'>
-<img src="two-tabs.png" style="width: 80%;">
-</div-->
 
 1. You will need a GitHub account. You just have to set this up once, and it's the same kind of thing as you do all the time when you set up a new account on some service. To set up your account, point the "Setup Tab" to `github.com`. You'll get a page like the following. 
     
-    ![](two-tabs-account.png)
+    ![](two-tabs-account.png) 
+  
     
-    Go ahead and make an account. Some tips:
-        * GitHub is very popular, so your first choice of account name may not be available. Whatever you choose, make it short and professional. For instance, **don't** use an account name like `party_guy`. If you do, you will find your students having to refer to URLs like `party_guy.github.io/stat101/exam_data.csv`, which they might not take very seriously.
-        * Make sure to keep track of your account name. You're going to be needing it often.
+    Go ahead and make an account. Some tips:    
+    * GitHub is very popular, so your first choice of account name may not be available. Whatever you choose, make it short and professional. For instance, **don't** use an account name like `party_guy`. If you do, you will find your students having to refer to URLs like `party_guy.github.io/stat101/exam_data.csv`, which they might not take very seriously.
+    * Make sure to keep track of your account name and password. You're going to be needing them often.
         
     Now that you have a GitHub account ...
 2. Staying in the Setup Tab, go to `github.com` and login to github using the ID and password you just created. 
@@ -51,10 +49,13 @@ Right now you are looking at a tab in your browser. For the sake of simplicity, 
 
     ![](gh-pages.png)
     
-Yours will be a little different. In particular, in the place where the image above says "Master Branch /docs folder," your page will say "None." Change the "None" to "Master Branch /docs folder" and press save.
-9. Scroll back up to the top of the page. At the top left will be your user name followed by your course name. Click on the course name and you'll come to a page that looks like this:
+Yours will be a little different. In particular, in the place where the image above says "Master Branch /docs folder," your page will say "None." Change the "None" to "Master Branch /docs folder" and press save.    
+
+9. Scroll back up to the top of the page. At the top left will be *your* user name followed by *your* course name. Click on the course name and you'll come to a page that looks like this:
     
 ![](repository.png)
+
+----------
 
 > Congratulations! Your web site is now created! The address of your new web site will be displayed just above the "Master Branch /docs folder" button. It will be something like `https://dtkaplan.github.io/stat101`, but with your own GitHub user ID and course name.
 
