@@ -1,22 +1,21 @@
-# My Course Web Site
+# StatPREP Course Materials
 
-Welcome to Stat 101, the imaginary course used for the example web site. In reality, you'll edit this file to give a more appropriate title and to say something about your own course and to create links to the data files you want to provide to your students.
+> Note to instructors: If you are an instructor who was directed to this site so that you can set up your own web page, you'll find the instructions at <http://github.com/dtkaplan/stat101>. 
 
-For directions on how to do everything, go to <http://github.com/dtkaplan/stat101>.
+> Another note to instructors: You'll be editing the `index.md` file in your own repository to put in your own content. None of the material below this note will be appropriate for your individual site, so make sure that you **delete** all of the material in your `index.md` that shows up the very first time you edit it.
 
-## Week 1
+## Welcome to StatPREP. 
 
-Maybe you want to do a week-by-week format. Maybe day-by-day. It's up to you.
+This page contains links and other student-facing information for StatPREP activities.
 
-Data files for this week:
+> If you are a student looking for the web page for your instructor's web site, you've found your way to the StatPREP repository. Check with your instructor to make sure that you have the right URL for your instructor's web site.
 
-- `https://dtkaplan.github.io/stat101/test.csv`
+## Tutorials
 
-To create the data table in your R session, copy and paste this command into your console:
+Tutorials are interactive web documents that instructors can use as in-class activities or as assignments. Chances are, your instructor has his or her own web site that contains links to the Tutorials being used in your class. But your welcome to browse this site to look at Tutorials that were not assigned.
 
-```r
-My_data <- read.csv("https://dtkaplan.github.io/stat101/test.csv")
-```
+1. [Confidence in taxis](https://dtkaplan.shinyapps.io/Confidence_in_Taxis/)
+2. [Experiment with paper planes](https://dtkaplan.shinyapps.io/Paper_planes/)
+3. [Driver reaction times](http://dtkaplan.shinyapps.io/Traffic_signs)
+4. [Data and diabetes](https://dtkaplan.shinyapps.io/Diabetes/)
 
-
-## Week 2

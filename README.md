@@ -10,10 +10,9 @@ The main resource we'll use is called *GitHub*. This is a free service that's ve
 
 ## Setting up your web site
 
-Right now you are looking at a tab in your browser. For the sake of clarity, let's call this "Danny's Github Tab." You're going to need to open another tab in your browser, which we'll call the "Second Tab." You will want to have both tabs available to you so that you can go back and forth.
+Right now you are looking at a tab in your browser. For the sake of simplicity, let's call this the "Stat101 Tab." Since you will want to refer to these instructions while you are doing your setup, you should open another tab in your browser, which for simplicity we'll call the "Setup Tab." You will want to have both tabs available to you so that you can go back and forth. You might, for instance, put them side by side on your screen. 
 
-1. You will need a GitHub account. You just have to set this up once, and it's the same kind of thing as you do all the time when you set up a new account on some service.
-    - Point the "Second Tab" to `github.com`. You'll get a page like the following. 
+1. You will need a GitHub account. You just have to set this up once, and it's the same kind of thing as you do all the time when you set up a new account on some service. To set up your account, point the "Setup Tab" to `github.com`. You'll get a page like the following. 
     
     ![](make-account.png)
     
@@ -22,43 +21,52 @@ Right now you are looking at a tab in your browser. For the sake of clarity, let
         * Make sure to keep track of your account name. You're going to be needing it often.
         
     Now that you have a GitHub account ...
-2. Go back to Danny's GitHub Tab, that is, the tab where you are reading this text. Near the top of this page, you'll see buttons etc that look like this:
-![](fork.png)
+2. Staying in the Setup Tab, go to `github.com` and login to github using the ID and password you just created. 
+3. Direct the Setup Tab to the same URL <http://github.com/dtkaplan/stat101` that has the instructions that you've been reading. The consequence of this is that the Setup Tab will have contents identical to the Stat101 Tab. (I know this seems odd, but stay with me.) 
 
-    - Press the "Fork" button. When you do this, you will likely be asked to login to GitHub. Fortunately, you just made your account ID and password, so it will be easy to remember them.
-    - After you've signed in, you'll likely be put back on the page with the "fork" button. Press it again. You'll get a message saying that your copy of the repository is being created. After that, you'll probably be looking at a page that looks just like Danny's GitHub Tab, but which has your account name instead of `dtkaplan`.
+    The top of both tabs will look like this:
     
-    What you've now accomplished is to set up your own "repository" which contains your new web site. But the site is not yet activated, so we'll need to do that first.
+    ![](fork.png)
+
+4. Within the Setup Tab, press the "Fork" button. (If you didn't login as you were supposed to in step (2), you will be asked to login to GitHub. Then you'll have to do step (3) again.)
+    - After you successfully complete the last step, you'll get a brief message saying that your copy of the repository is being created.
     
-3. Notice some things about the web page you are looking at. First, the URL of that page will be `github.com/`*your_user_ID*`/stat101`. Second the top of the page will look like this (except it won't say `dtkaplan`, it will have your own GitHub ID):
+5. Having successfully completed (4), you will notice that the Setup Tab looks just like the Stat101 Tab. But not quite. The Setup Tab will have your Github ID instead of `dtkaplan`.
+    
+>  What you've now accomplished is to set up your own "repository" which contains your new web site. But the site is not yet activated, so we'll need to do that first.
+    
+6. Notice some things about the web page you are looking at in the Setup Tab. First, the URL of that page will be `github.com/`*your_user_ID*`/stat101`. Second the top of the page will look like this (except it won't say `dtkaplan`, it will have your own GitHub ID):
 
     ![](settings.png)
     
     * One of the tabs *within* the page is called "Settings." Go there.
     
-4. Right near the top of the Settings tab is a label "Repository Name." The box will contain `stat101`. Change this to something that's suitable for your own course. Keep the name short and don't put any spaces in the name. If your course is actually called "Stat101", then you can keep the name. Otherwise change it to "Math2330" or "Stat10" or whatever is appropriate. Press the "Rename" button.
-5. Stay on the "Settings" tab, but scroll down until you see a section that looks like this:
+7. Right near the top of the Settings tab is a label "Repository Name." The box will contain `stat101`. Change this to something that's suitable for your own course. Keep the name short and don't put any spaces in the name. If your course is actually called "Stat101", then you can keep the name. Otherwise change it to "Math2330" or "Stat10" or whatever is appropriate for your course at your institution. Press the "Rename" button.
+8. Stay on the "Settings" tab, but scroll down until you see a section that looks like this:
 
     ![](gh-pages.png)
     
 Yours will be a little different. In particular, in the place where the image above says "Master Branch /docs folder," your page will say "None." Change the "None" to "Master Branch /docs folder" and press save.
-6. Scroll back up to the top of the page. At the top left will be your user name followed by your course name. Click on the course name. 
-
-    You'll come to a page that looks like this:
+9. Scroll back up to the top of the page. At the top left will be your user name followed by your course name. Click on the course name and you'll come to a page that looks like this:
     
-    ![](repository.png)
+![](repository.png)
 
-
-Congratulations! Your web site is now created! The address of your new web site will be displayed just above the "Master Branch /docs folder" button. It will be something like `https://dtkaplan.github.io/stat101`, but with your own user ID and course name.
+> Congratulations! Your web site is now created! The address of your new web site will be displayed just above the "Master Branch /docs folder" button. It will be something like `https://dtkaplan.github.io/stat101`, but with your own GitHub user ID and course name.
 
 ## Getting oriented
 
-The image above shows what your repository looks like. You can see a list of files, starting with a folder called "docs". The docs folder is where you will put all of the materials for your web site. Click on the name "docs" and you will see what files are already in the directory.  There are two:
+When you are setting up your repository, you will be logged into GitHub and at a URL like this: `github.com/`*your_user_ID*`/`*your_course_name*.
+
+When your students look at the repository, or when you make links to data files, etc., the URL will look like *your_user_ID*`.github.io/`*your_course_name*. Make sure it's clear to you how the GitHub user URL differs from the URL for students.
+
+We're going to do some setup for your site, e.g. customizing the front page, adding data files, etc. So check that your Setup Tab is on the GitHub user site: `github.com/`*your_user_ID*`/`*your_course_name*. 
+
+You can see a list of files, starting with a folder called "docs". The docs folder is where you will put all of the materials for your web site. Click on the name "docs" and you will see what files are already in the directory.  There are two:
 
 - `test.csv` - a really small CSV data file
 - `index.md` - a text file containing the front page of your new site.
 
-What might confuse you is that the site URL is something like `http://dtkaplan.github.io/stat101`, which does not include the word `docs`. Get used to it. The URL really does point to the `docs` directory. And, since there is a file called `index.md` in the `docs` directory, the contents of `index.md` are what will be displayed when someone points their browser to your repository.
+What might confuse you is that the site URL from the students' point of view is something like `http://`*your_user_ID*`.github.io/`*your_course_name*, which does not include the word `docs`. Get used to it. The URL really does point to the `docs` directory. And, since there is a file called `index.md` in the `docs` directory, per the standard behaviour of web sites the contents of `index.md` are what will be displayed when someone points their browser to your `github.io` site.
 
 ## Customizing your site
 
@@ -66,6 +74,27 @@ Mostly, you're going to do two things with your site:
 
 1. Upload data files from your own computer into the `docs` folder on your site. Conveniently, there is an "Upload Files" button just for this purpose.
 2. Edit the `index.md` file. To do this, click on the name `index.md`, which will open the file. You will see a little pencil icon; press that to edit the file. When you're done with your edits, scroll down and press the green "Commit changes" button. That simply saves your work. As soon as you've done this, the modified page is live on your web site, but it might take a few minutes and a refresh of your browser to see it.
+
+## Putting links to data files on your own course web site
+
+If you are going to use your site to provide student access to data sets of particular interest to you, you will want to put links and instructions on your course web site.
+
+The markup that you include in your `index.md` file (in the `docs/` directory) might look like this:
+
+````
+## Data files
+
+Data files for this week:
+
+- `https://dtkaplan.github.io/stat101/test.csv`
+
+To create the data table in your R session, copy and paste 
+this command into your console:
+
+```r
+My_data <- read.csv("https://dtkaplan.github.io/stat101/test.csv")
+```
+````
 
 
 
