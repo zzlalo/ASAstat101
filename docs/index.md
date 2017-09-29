@@ -1,6 +1,6 @@
 # StatPREP Course Materials
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lZVNZsDX-yA?rel=0" frameborder="0" allowfullscreen></iframe>
+
 
 > Note to instructors: If you are an instructor who was directed to this site so that you can set up your own web page, you'll find the instructions at <http://github.com/dtkaplan/stat101>. 
 
