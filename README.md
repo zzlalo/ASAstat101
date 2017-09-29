@@ -25,7 +25,7 @@ Right now you are looking at a tab in your browser. For the sake of simplicity, 
         
     Now that you have a GitHub account ...
 2. Staying in the Setup Tab, go to `github.com` and login to github using the ID and password you just created. 
-3. Direct the Setup Tab to the same URL <http://github.com/dtkaplan/stat101` that has the instructions that you've been reading. The consequence of this is that the Setup Tab will have contents identical to the Stat101 Tab. (I know this seems odd, but stay with me.) 
+3. Direct the Setup Tab to the same URL <http://github.com/dtkaplan/stat101> that has the instructions that you've been reading. The consequence of this is that the Setup Tab will have contents identical to the Stat101 Tab. (I know this seems odd, but stay with me.) 
 
     The top of both tabs will look like this:
     
