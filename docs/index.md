@@ -1,5 +1,9 @@
 # StatPREP Course Materials
 
+![Alternative text](https://www.macalester.edu/~kaplan/kaplan.jpg)
+
+<src img = "https://www.macalester.edu/~kaplan/kaplan.jpg" width = '10%'>
+
 > Note to instructors: If you are an instructor who was directed to this site so that you can set up your own web page, you'll find the instructions at <http://github.com/dtkaplan/stat101>. 
 
 > Another note to instructors: You'll be editing the `index.md` file in your own repository to put in your own content. None of the material below this note will be appropriate for your individual site, so make sure that you **delete** all of the material in your `index.md` that shows up the very first time you edit it.
@@ -19,4 +23,10 @@ Tutorials are interactive web documents that instructors can use as in-class act
 3. [Driver reaction times](http://dtkaplan.shinyapps.io/Traffic_signs)
 4. [Data and diabetes](https://dtkaplan.shinyapps.io/Diabetes/)
 
+## Lock data sets
 
+1. [US whatever](http://www.lock5stat.com/datasets/USStates.csv)
+
+```r
+State_data <- read.csv("http://www.lock5stat.com/datasets/USStates.csv")
+```
