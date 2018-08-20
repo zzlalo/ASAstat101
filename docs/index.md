@@ -4,7 +4,7 @@
 
 > Another note to instructors: You'll be editing the `index.md` file in your own repository to put in your own content. None of the material below this note will be appropriate for your individual site, so make sure that you **delete** all of the material in your `index.md` that shows up the very first time you edit it.
 
-## Welcome to StatPREP. 
+## Welcome to ASA Stat 101. 
 
 This page contains links and other student-facing information for StatPREP activities.
 
